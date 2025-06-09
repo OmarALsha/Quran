@@ -34,7 +34,7 @@ async def on_ready():
 
     vc = await channel.connect()
     vc.play(
-        discord.FFmpegPCMAudio("https://qurango.net/radio/makkah"),
+        discord.FFmpegPCMAudio("http://stream.radiojar.com/0tpy1h0kxtzuv"),
         after=lambda e: print("✅ Finished playing.")
     )
     print("🎧 Playing Quran radio...")
